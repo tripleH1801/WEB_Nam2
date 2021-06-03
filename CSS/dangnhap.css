@@ -1,0 +1,109 @@
+body{
+    /* background-color: rgb(49, 49, 49);
+    background-size: 100%; */
+    background-image: url("../IMG/backgrounddangnhap3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+input[type="text"]{
+    background-color: initial;
+    border: none;
+    outline: none;
+    /* width: 50%; */
+    margin-bottom: 3px;
+    margin-top: 3%;
+    color: white;
+    border-bottom: 1px solid white;
+    font-size: 20px;
+}
+input[type="email"]{
+    background-color: initial;
+    border: none;
+    outline: none;
+    /* width: 50%; */
+    margin-bottom: 3px;
+    margin-top: 3%;
+    color: white;
+    border-bottom: 1px solid white;
+    font-size: 20px;
+}
+input[type="password"]{
+    background-color: initial;
+    border: none;
+    outline: none;
+    /* width: 50%; */
+    margin-bottom: 2px;
+    margin-top: 3%;
+    color: white;
+    border-bottom: 1px solid white;
+    font-size: 20px;
+
+}
+input[type="button"], button{
+    background-color: #d4474b;
+    height: 40px;
+    font-size: 20px;
+    color: white;
+    border: solid 2px white;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+input[type="button"]:hover{
+    background-color: white;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 700px;
+    color: #d4474b;
+    border: solid 2px #d4474b;
+    -webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;		
+}
+button:hover{
+    background-color: white;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 700px;
+    color: #d4474b;
+    border: solid 2px #d4474b;
+    -webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;	
+}
+a{
+    color: white;
+}
+#titledangnhap {
+    text-align: center;
+    color: #e5474b;
+}
+#formdangnhap{
+    padding-top: 5%;
+}
+/* @media screen and(max-width:671px){
+    *{
+        margin: 0 auto !important;
+    }
+    a img{
+        width: 0% !important;
+        height: 5% !important;
+    }
+} */
+span{
+    color: red;
+    font-size: 15px;
+    text-align: center;
+}
+#marginbtn{
+    margin-top: 200px;
+}

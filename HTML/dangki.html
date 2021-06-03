@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Đăng Ký(TripleShop)</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../boostrap/css/maxcdn_bootstrapcdn3_4_1cssbootstrap.min.css">
+	<style type="text/css">
+		@import "../CSS/dangnhap.css";
+	</style>
+	<script src="../boostrap/js/dangky.js"></script>
+</head>
+<body>
+	<div class="outer">
+		<div >
+			<script>disablebtn()</script>
+			<form action="" class="row">
+				<section id="formdangnhap">
+					<div id="titledangnhap" class="col-md-12 col-xs-0"><h1>Đăng ký tài khoản</h1></div>
+					<div id="" class="row col-md-12 col-xs-12">
+						<div class="col-md-4 col-xs-2"></div>
+						<input class="col-md-4 col-xs-8" type="text" name="" id="tendangnhap" placeholder="Tên đăng nhập" required onblur="kiemtratendangnhap()"> <br>
+						<div class="col-md-4 col-xs-2"></div>
+						<span class="col-xs-12" id="errtendangnhap"></span>
+					</div>
+					<div id="" class="row col-md-12  col-xs-12">
+						<div class="col-md-4 col-xs-2"></div>
+						<input class="col-md-4 col-xs-8" type="password" name="" id="mk" placeholder="Mật khẩu" required >
+						<div class="col-md-4 col-xs-2"></div>
+                    </div>
+                    <div id="" class="row col-md-12  col-xs-12">
+						<div class="col-md-4 col-xs-2"></div>
+						<input class="col-md-4 col-xs-8" type="password" name="" id="nhaplaimk" placeholder="Nhập lại mật khẩu" required onblur="kiemtranhaplaimk()" >
+						<div class="col-md-4 col-xs-2"></div>
+						<span class="col-xs-12" id="errnhaplaimk"></span>
+                    </div>
+                    <div id="titledangnhap" style="margin-top: 300px;"><h1 >Thông tin cá nhân</h1></div>
+                    <div id="" class="row col-md-12  col-xs-12">
+						<div class="col-md-4 col-xs-2"></div>
+						<input class="col-md-4 col-xs-8" type="text" name="" id="hoten" placeholder="Họ và Tên" required onblur="kiemtrahoten()"> <br>
+						<div class="col-md-4 col-xs-2"></div>
+						<span class="col-xs-12" id="errhoten"></span>
+                    </div>
+                    <div id="" class="row col-md-12 col-xs-12">
+						<div class="col-md-4 col-xs-2"></div>
+						<input class="col-md-4 col-xs-8" type="text" name="" id="diachi" placeholder="Địa chỉ" onblur="kiemtradiachi()" required> <br>
+						<div class="col-md-4 col-xs-2"></div>
+						<span class="col-xs-12" id="errdiachi"></span>
+                    </div>
+                    <div id="" class="row col-md-12 col-xs-12">
+						<div class="col-md-4 col-xs-2"></div>
+						<input class="col-md-4 col-xs-8" type="text" name="" id="sdt" placeholder="Số điện thoại" onblur="kiemtrasdt()" required> <br>
+						<div class="col-md-4 col-xs-2"></div>
+						<span class="col-xs-12" id="errsdt"></span>
+                    </div>
+                    <div id="" class="row col-md-12 col-xs-12">
+						<div class="col-md-4 col-xs-2"></div>
+						<input class="col-md-4 col-xs-8" type="email" name="" id="email" placeholder="Email" onblur="kiemtraemail(), enablebtn()" required> <br>
+						<div class="col-md-4 col-xs-2"></div>
+						<span class="col-xs-12" id="erremail"></span>
+                    </div>
+					<div class="row col-md-12 col-xs-12">
+						<div class="col-md-5 col-xs-4"></div>
+						<button class="col-md-2 col-xs-4"  type="button" value="" id="btndangky" onclick="dangky()" disabled>Đăng ký</button>
+						<div class="col-md-5 col-xs-4"></div>
+					</div>
+					<div class=" row col-md-12">
+						<p class="col-md-12 col-xs-12" style="color: white; text-align: center; padding-top: 30px;">Hoặc</p>
+					</div>
+					
+				</section>
+				<div class="row col-md-12 col-xs-12">
+					<div class="col-md-3 col-xs-12"></div>
+					<div class="row col-md-6 col-xs-12">
+						<div class="col-md-2 col-xs-1"></div>
+						<a href="dangnhap.html" class="col-md-3 col-xs-4"><input style="width: 100%;"  type="button" value="Đăng nhập" ></a>
+						<div class="col-md-2 col-xs-2"></div>
+						<a href="index.html" class="col-md-3 col-xs-4"><input style="width: 100%;"  type="button" value="Trang chủ" src="Main.html" ></a>
+						<div class="col-md-2 col-xs-1"></div>
+					</div>
+					<div class="col-md-3 col-xs-12"></div>
+				</div>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
